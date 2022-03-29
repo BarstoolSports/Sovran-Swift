@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/BarstoolSports/Sovran-Swift"
   spec.ios.deployment_target = "13.0"
   spec.tvos.deployment_target = "13.0"
+  spec.source       = { :git => "https://github.com/BarstoolSports/Sovran-Swift.git" }
   spec.source_files = 'Sources/Sovran/**/*.{h,swift}'
   spec.swift_versions   = ['5.3']
 
